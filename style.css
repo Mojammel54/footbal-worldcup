@@ -1,0 +1,83 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+/* common style or utilities */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+
+}
+
+/* <!-- The Greatest show on the earth  section start -------------------------------------------> */
+
+.The-Greatest-show {
+    display: flex;
+    background-color: #161616;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+    margin-left: 158px;
+    height: 462px;
+
+}
+
+.greatest-show-text h1 {
+    color: #FFFFFF;
+    font-Weight: 700;
+    font-Size: 57px;
+    Line-height: 62px;
+}
+
+.greatest-show-text p {
+    color: #F3F1FF;
+    font-Weight: 400;
+    font-Size: 16px;
+    Line-height: 26px;
+}
+
+.greatest-show-text a {
+    text-decoration: none;
+    background-color: #DD0000;
+    Font-size: 20px;
+    Line-height: 100%;
+    Vertical-align: Top;
+    color: white;
+    transition: transform 0.5s ease-in;
+    transition-duration: 1s;
+    display: hidden;
+
+
+
+
+}
+
+.greatest-show-text a:hover {
+    width: 400px;
+    background-color: coral;
+    height: 400px;
+    transform: rotate(70deg);
+
+}
+
+.player-one img {
+    height: 500px;
+}
+
+.fa-right-long {
+
+    transition: transform 3s ease-in-out;
+
+
+}
+
+.greatest-show-text a:hover .fa-right-long {
+    transform: translate(750px);
+    color: chocolate;
+
+
+
+}
+
+/* <!-- The Greatest show on the earth  section end -------------------------------------------> */
