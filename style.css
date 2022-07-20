@@ -81,3 +81,130 @@ body {
 }
 
 /* <!-- The Greatest show on the earth  section end -------------------------------------------> */
+
+/* blogs section start.............................................................. */
+/* .flex-box {
+    display: flex;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+    margin-left: 158px;
+    height: 462px;
+    flex-direction: row-reverse;
+} */
+
+.blogs {
+    display: flex;
+    width: 933px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+    margin-left: 128px;
+    height: 462px;
+    justify-content: center;
+}
+
+.blog1 a,
+.blog2 a {
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    text-decoration: none;
+    width: 165px;
+    margin-top: 14px;
+    background-color: white;
+    margin-left: 33px;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 11px;
+    margin-left: 27px;
+
+
+
+}
+
+.blog3 a {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    text-decoration: none;
+    width: 165px;
+    margin-top: 14px;
+    background-color: red;
+    margin-left: 33px;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 11px;
+    margin-left: 27px;
+
+}
+
+.blog-text {
+    background-color: #161616;
+    Width: 254px;
+    Height: 125px;
+    padding: 4px;
+    border-radius: 7px;
+
+}
+
+.transfar {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+.blog-images p {
+    font-weight: bold;
+}
+
+.icon {
+    padding: 7px;
+    color: gray;
+
+}
+
+.icon1 {
+    padding: 7px;
+    margin-left: 25px;
+    color: gray;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 2px;
+    column-gap: 8px;
+
+
+}
+
+.blog-images1 {
+    grid-row: 2/3;
+}
+
+
+.blog-images img {
+
+    width: 231px;
+}
+
+
+
+
+
+
+
+
+
+
+/* blogs section end.............................................................. */
