@@ -371,10 +371,9 @@ footer p {
 
 
 
-    .footer-tags {
-        display: flex;
-        flex-direction: column;
-    }
+
+
+
 
 }
 
@@ -526,7 +525,7 @@ footer p {
 
     .footer-tags {
 
-        background-color: red;
+
         align-items: center;
         vertical-align: top;
 
