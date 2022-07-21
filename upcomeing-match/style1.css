@@ -493,12 +493,12 @@ footer p {
 
     .view {
         visibility: visible;
-        font-size: 59px;
+        font-size: 39px;
         border: 1px solid red;
         background-color: #DD0000;
         margin-top: 583px;
-        width: 288px;
-        margin-left: 246px;
+        width: 155px;
+        margin-left: 357px;
         border-radius: 7px;
         margin-bottom: 2px;
     }
@@ -519,7 +519,7 @@ footer p {
         margin-top: 435px;
         height: 471px;
         width: 725px;
-        margin-left: 21px;
+        margin-left: 82px;
         margin-top: 82px;
         text-align: center;
     }
