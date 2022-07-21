@@ -358,3 +358,143 @@ footer p {
 
 
 }
+
+
+
+/* tablet view section start */
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+
+
+
+
+
+    .The-Greatest-show {
+        display: flex;
+        background-color: #161616;
+        width: 691px;
+        padding: -15px;
+        margin-top: 21px;
+        border-radius: 27px;
+        margin-left: 70px;
+        height: 611px;
+    }
+
+    .The-Greatest-show img {
+        width: 380px;
+        height: 654px;
+        margin-right: -23px;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: -1px;
+        margin-left: 83px;
+        width: 952px;
+
+    }
+
+
+
+    .blogs {
+        display: contents;
+        margin-left: 20px;
+    }
+
+    .blog1 a,
+    .blog2 a {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        text-decoration: none;
+        width: 165px;
+        margin-top: 26px;
+        background-color: white;
+        margin-left: 33px;
+        align-content: center;
+        flex-wrap: wrap;
+        border-radius: 3px;
+        color: #161616;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 109px;
+    }
+
+    .blog3 a {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        text-decoration: none;
+        width: 165px;
+        margin-top: 26px;
+        background-color: red;
+        margin-left: 33px;
+        align-content: center;
+        flex-wrap: wrap;
+        border-radius: 3px;
+        color: #161616;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 114px;
+    }
+
+    .blog-text {
+        background-color: #F3F1FF;
+        display: flex;
+        margin-top: 67px;
+        margin-inline: -40px;
+        line-height: 100px;
+
+    }
+
+
+
+
+    .view {
+        visibility: visible;
+        font-size: 59px;
+        border: 1px solid red;
+        background-color: #DD0000;
+        margin-top: 88px;
+        width: 288px;
+        margin-left: 311px;
+        border-radius: 7px;
+        margin-bottom: 74px;
+    }
+
+    .view a {
+        text-decoration: none;
+        text-align: center;
+    }
+
+    footer {
+        color: white;
+
+        display: flex;
+
+        align-content: space-around;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 435px;
+        height: 471px;
+        width: 725px;
+        margin-left: 81px;
+        margin-top: 13px;
+        text-align: center;
+    }
+
+    .footer-tags {
+
+        background-color: red;
+        align-items: center;
+        vertical-align: top;
+
+    }
+
+
+}
+
+
+
+/* tablet view end from here */
