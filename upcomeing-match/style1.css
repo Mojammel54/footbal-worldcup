@@ -175,12 +175,22 @@ body {
 
 
 .upcomeing span {
-    background-color: blue
+    background-color: indianred;
+    line-height: -8px;
+
+    font-style: italic;
+    font-weight: bold;
 }
 
 .upcomeing-match-pic {
     box-shadow: -10px 12px 6px -7px #e8e8e8;
 }
+
+.view {
+    visibility: hidden;
+}
+
+
 
 
 
@@ -210,3 +220,318 @@ footer p {
     display: contents;
     color: #B9B9B9;
 }
+
+.footer-icon {
+    visibility: hidden;
+}
+
+/* 2nd page mobile view start */
+
+@media only screen and (max-width:688px) {
+
+
+    .The-Greatest-show {
+        display: flex;
+        background-color: #161616;
+        width: 370px;
+        padding: 5px;
+        margin-top: 21px;
+        border-radius: 5px;
+        margin-left: 8px;
+        flex-direction: column;
+        height: 20%;
+        border-radius: 2%;
+        margin-bottom: 10px;
+
+
+    }
+
+    .player-one img {
+        height: 395px;
+        margin-left: 4px;
+        margin-top: 18px;
+    }
+
+    .greatest-show-text p {
+        color: #F3F1FF;
+        font-Weight: 400;
+        font-Size: 16px;
+        Line-height: 24px;
+
+
+    }
+
+    .greatest-show-text a {
+        text-decoration: none;
+        background-color: #DD0000;
+        Font-size: 34px;
+        Line-height: 100%;
+        Vertical-align: Top;
+        color: white;
+        transition: transform 0.5s ease-in;
+        transition-duration: 1s;
+        display: hidden;
+        margin-left: 59px;
+        margin-bottom: 1845px;
+    }
+
+    .upcomeing {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+        margin-left: 70px;
+
+    }
+
+    .blogs {
+        display: contents;
+        margin-left: 20px;
+    }
+
+    .blog1 a {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        text-decoration: none;
+        width: 165px;
+        margin-top: 26px;
+        background-color: red;
+        margin-left: 33px;
+        align-content: center;
+        flex-wrap: wrap;
+        border-radius: 3px;
+        color: #161616;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 109px;
+    }
+
+
+    .blog2 a {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        text-decoration: none;
+        width: 165px;
+        margin-top: 26px;
+        background-color: white;
+        margin-left: 33px;
+        align-content: center;
+        flex-wrap: wrap;
+        border-radius: 3px;
+        color: #161616;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 109px;
+    }
+
+    .blog3 a {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        text-decoration: none;
+        width: 165px;
+        margin-top: 26px;
+        background-color: white;
+        margin-left: 33px;
+        align-content: center;
+        flex-wrap: wrap;
+        border-radius: 3px;
+        color: #161616;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 114px;
+    }
+
+
+    .blog-text {
+        background-color: #F3F1FF;
+    }
+
+    footer {
+        color: white;
+
+        display: flex;
+
+        align-content: space-around;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 435px;
+        height: 471px;
+        width: 301px;
+        margin-left: 42px;
+        margin-top: 990px;
+        text-align: center;
+    }
+
+    .footer-icon {
+        word-spacing: 32px;
+        visibility: visible
+    }
+
+
+
+    .footer-tags {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+/* 2nd page mobile view end */
+
+/* tab view start from here */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+
+
+
+
+
+    .The-Greatest-show {
+        display: flex;
+        background-color: #161616;
+        width: 691px;
+        padding: -15px;
+        margin-top: 21px;
+        border-radius: 27px;
+        margin-left: 70px;
+        height: 611px;
+    }
+
+    .The-Greatest-show img {
+        width: 380px;
+        height: 654px;
+        margin-right: -23px;
+    }
+
+    .upcomeing {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: -1px;
+        margin-left: 83px;
+        width: 952px;
+
+
+
+
+
+    }
+
+    .blogs {
+        display: contents;
+        margin-left: 20px;
+    }
+
+    .blog1 a {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        text-decoration: none;
+        width: 165px;
+        margin-top: 26px;
+        background-color: red;
+        margin-left: 33px;
+        align-content: center;
+        flex-wrap: wrap;
+        border-radius: 3px;
+        color: #161616;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 109px;
+    }
+
+
+    .blog2 a {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        text-decoration: none;
+        width: 165px;
+        margin-top: 26px;
+        background-color: white;
+        margin-left: 33px;
+        align-content: center;
+        flex-wrap: wrap;
+        border-radius: 3px;
+        color: #161616;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 109px;
+    }
+
+    .blog3 a {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        text-decoration: none;
+        width: 165px;
+        margin-top: 26px;
+        background-color: white;
+        margin-left: 33px;
+        align-content: center;
+        flex-wrap: wrap;
+        border-radius: 3px;
+        color: #161616;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 114px;
+    }
+
+    .blog-text {
+        background-color: #F3F1FF;
+        display: flex;
+        margin-top: 67px;
+        margin-inline: -40px;
+        line-height: 100px;
+
+    }
+
+
+
+
+    .view {
+        visibility: visible;
+        font-size: 59px;
+        border: 1px solid red;
+        background-color: #DD0000;
+        margin-top: 583px;
+        width: 288px;
+        margin-left: 246px;
+        border-radius: 7px;
+        margin-bottom: 2px;
+    }
+
+    .view a {
+        text-decoration: none;
+        text-align: center;
+    }
+
+    footer {
+        color: white;
+
+        display: flex;
+
+        align-content: space-around;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 435px;
+        height: 471px;
+        width: 725px;
+        margin-left: 21px;
+        margin-top: 82px;
+        text-align: center;
+    }
+
+    .footer-tags {
+
+        background-color: red;
+        align-items: center;
+        vertical-align: top;
+
+    }
+
+}
+
+/* tab view end from here */
